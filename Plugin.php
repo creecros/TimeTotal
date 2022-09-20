@@ -11,6 +11,7 @@ class Plugin extends Base
   {
     //template
         $this->template->hook->attach('template:task:details:third-column', 'timeTotal:task/totaltimes');
+        $this->template->hook->attach('template:board:task:icons', 'timeTotal:board/totaltime');
 
   }
   public function getPluginName()
